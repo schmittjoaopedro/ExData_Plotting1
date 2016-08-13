@@ -1,3 +1,29 @@
+## Running the script
+
+To run this script you will need the following packages installed in your environment:
+
+* dplyr
+* lubridate
+
+This script was tested in Linux environment, but the folders were created to run in any environment.
+To run this scripts you should define your working directory in R, using the following command:
+
+* setwd("<git cloned repository path folder>")
+
+After that you did this steps, you can run the follow statement:
+
+``` R
+source("plot1.R")
+source("plot2.R")
+source("plot3.R")
+source("plot4.R")
+```
+
+Basically each plot script will download and tidy the dataset, if the tidy.csv does not exist.
+
+
+
+
 ## Introduction
 
 This assignment uses data from
